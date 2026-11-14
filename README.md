@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/bomber_friends_logo.png" alt="Bomber Friends Logo" width="500"/>
+  <img src="assets/Logo%20Bomber%20Friends%20com%20Personagem%20Explosivo.png" alt="Bomber Friends Logo" width="500"/>
 </p>
 
 <h1 align="center">💣 Bomber Friends no CMD 💣</h1>
@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="40"/>
-  <img src="assets/bomba.png" alt="bomba" width="40"/>
-  <img src="assets/bomba.png" alt="bomba" width="40"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="40"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="40"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="40"/>
 </p>
 
 ---
@@ -36,7 +36,7 @@
 - `-lpthread` → linka a biblioteca de threads POSIX
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="30"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="30"/>
 </p>
 
 ---
@@ -52,7 +52,7 @@ Um Bomberman completo rodando no Prompt de Comando do Windows! Dois jogadores se
 - **Conexão TCP/IP** — jogue em LAN ou na mesma máquina
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="30"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="30"/>
 </p>
 
 ---
@@ -87,7 +87,7 @@ gcc client_local.c -o client_local.exe -static-libgcc -lws2_32 -lpthread
 ```
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="30"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="30"/>
 </p>
 
 ---
@@ -131,7 +131,7 @@ Pra jogar com um amigo na mesma rede:
 | `Q` | Sair da partida |
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="30"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="30"/>
 </p>
 
 ---
@@ -155,7 +155,7 @@ Toda a troca de mensagens segue um protocolo simples com delimitador `\n`:
 As **threads** (`pthread.h`) são usadas pra receber mensagens de forma assíncrona — uma thread fica escutando o socket enquanto o jogo roda no loop principal. Um **mutex** protege o acesso ao mapa compartilhado.
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="30"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="30"/>
 </p>
 
 ---
@@ -191,9 +191,9 @@ bomberman-cmd/
 ---
 
 <p align="center">
-  <img src="assets/bomba.png" alt="bomba" width="40"/>
-  <img src="assets/bomba.png" alt="bomba" width="40"/>
-  <img src="assets/bomba.png" alt="bomba" width="40"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="40"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="40"/>
+  <img src="assets/Bomba%20Cartunesca%20com%20Fa%C3%ADsca%20Explosiva.png" alt="bomba" width="40"/>
 </p>
 
 <p align="center">
