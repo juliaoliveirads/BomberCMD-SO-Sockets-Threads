@@ -83,7 +83,6 @@ Um Bomberman completo rodando no Prompt de Comando do Windows! Dois jogadores se
 ```bash
 gcc server.c -o server.exe -static-libgcc -lws2_32 -lpthread
 gcc client.c -o client.exe -static-libgcc -lws2_32 -lpthread
-gcc client_local.c -o client_local.exe -static-libgcc -lws2_32 -lpthread
 ```
 
 <p align="center">
@@ -100,15 +99,13 @@ gcc client_local.c -o client_local.exe -static-libgcc -lws2_32 -lpthread
 |---------|-----------|
 | `server.c` | **Servidor** (Jogador 1) — cria a sala e aguarda conexão |
 | `client.c` | **Cliente** (Jogador 2) — conecta pelo IP digitado (pra jogar em LAN) |
-| `client_local.c` | **Cliente Local** (Jogador 2) — conecta direto em `127.0.0.1` (pra jogar sozinho na mesma máquina) |
-
 ### Jogando sozinho (mesma máquina)
 
-Se quiser testar sozinho ou jogar contra você mesmo, use o `client_local.c`:
+Se quiser testar sozinho ou jogar contra você mesmo, use o `client.c com ip local`:
 
 1. Compile `server.c` e `client_local.c`
 2. Abra o `server.exe` — ele vai mostrar seu IP e a porta **51171**
-3. Abra o `client_local.exe` em outra janela — ele já conecta automaticamente em `127.0.0.1`
+3. Abra o `client.exe` em outra janela — ele já conecta automaticamente em `127.0.0.1 apertando enter`
 4. Pronto! As duas janelas ficam lado a lado e você controla os dois
 
 ### Jogando em LAN (dois computadores)
@@ -178,7 +175,6 @@ Ao vencer uma partida e pedir/aceitar revanche, o jogo avança pra próxima fase
 bomberman-cmd/
 ├── server.c            # Código do servidor (Jogador 1)
 ├── client.c            # Código do cliente com IP manual (LAN)
-├── client_local.c      # Código do cliente local (127.0.0.1)
 ├── Executaveis/
 │   ├── server.exe      # Servidor compilado
 │   └── client.exe      # Cliente compilado
