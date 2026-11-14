@@ -193,6 +193,5 @@ bomberman-cmd/
 </p>
 
 <p align="center">
-  Feito com 💥 pra disciplina de <b>Sistemas Operacionais</b><br>
-  Unicesumar — ESOFT-4S
+  Feito com para a disciplina de <b>Sistemas Operacionais Unicesumar — ESOFT-4S <b>
 </p>
